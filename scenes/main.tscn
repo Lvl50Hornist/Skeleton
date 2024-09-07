@@ -4,3 +4,15 @@
 
 [node name="main" type="Node2D"]
 script = ExtResource("1_jvyys")
+
+[node name="FmodBankLoader" type="FmodBankLoader" parent="."]
+
+[node name="typing" type="FmodEventEmitter2D" parent="."]
+event_name = "event:/Text Scroll"
+event_guid = "{2fd23165-7b23-4945-ae37-ede0d07f4b8f}"
+autoplay = true
+event_parameter/Speaking/id = -6053960814314387040
+event_parameter/Speaking/value = 1.0
+event_parameter/Speaking/min_value = 0.0
+event_parameter/Speaking/max_value = 10.0
+event_parameter/Speaking/default_value = 0.0
